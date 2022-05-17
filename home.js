@@ -56,6 +56,7 @@ pro.onreadystatechange = function () {
             var bt2 = document.createElement("button")
             bt2.innerText = "Add To Fav"
             // bt.setAttribute("class", "bt1")
+            bt2.style.backgroundColor = 'grey'
             bt2.addEventListener('click', add2)
             var p4 = document.createElement("p")
             
